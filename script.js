@@ -74,9 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
           
           const span = parent.querySelector('span');
 
-          span.classList.contains("complite") 
-           ? span.classList.remove("complite")
-           : span.classList.add("complite");
+          span.classList.contains("complete") 
+           ? span.classList.remove("complete")
+           : span.classList.add("complete");
 
         } else if (target.classList.contains("edit")) {
           setToBuffer(parent)
